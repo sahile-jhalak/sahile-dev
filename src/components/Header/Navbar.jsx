@@ -35,7 +35,7 @@ const Navbar = () => {
             className="text-white text-[18px]  mt-4 
         font-bold cursor-pointer flex"
           >
-            Full Stack Developer&nbsp; <span className="sm:block hidden"></span>
+            Web Developer&nbsp; <span className="sm:block hidden"></span>
           </p>
         </Link>
 
