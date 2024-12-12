@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { styles } from "../../styles";
 import { navLinks } from "../../constants";
 import { logo, menu, close } from "../../assets";
-import resume from "/src/sahile_resume .pdf";
+import resume from "/src/Sahil_Ansari_Frontend_Developer.pdf";
 
 import { Router } from "react-router-dom";
 
@@ -40,7 +40,7 @@ const Navbar = () => {
         </Link>
 
         <ul className="list-none hidden sm:flex flex-row items-center gap-10">
-          <a href={resume} download="Sahil.pdf">
+          <a href={resume} download="Sahil_Ansari_Frontend_Developer.pdf">
             <button
               className={`${
                 active === Link.title ? "abhishek" : "abhishek-btn"
