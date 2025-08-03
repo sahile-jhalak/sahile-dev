@@ -20,6 +20,7 @@ import {
   prescripto,
   CarShowcase,
   shop,
+  resumind
 } from "../assets";
 export const CVDuncan = CV_Duncan;
 
@@ -117,6 +118,29 @@ export const technologies = [
 
 export const projects = [
   {
+     name: "Resumind",
+    description:
+      "A modern, responsive resume platform where users can securely store resumes, get AI-powered ATS matching with tailored feedback, and enjoy a sleek, reusable UI built with Tailwind CSS and shadcn/ui—fully optimized for all devices.",
+    tags: [
+      {
+        name: "next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "typescript",
+
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwindCSS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: resumind,
+    source_code_link: "https://github.com/sahile-jhalak/Resumind",
+    visit_here_link:"https://ai-resumind.vercel.app/", 
+  },
+  {
     name: "Admin Dashboard",
     description:
       "An admin dashboard allows at-a-glance access to the crucial information for the specific needs,This Admin Panel includes one Dashboard, Three Pages, Four Apps, and Seven fully functional charts!",
@@ -131,7 +155,7 @@ export const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "tailwindCss",
         color: "pink-text-gradient",
       },
     ],

@@ -27,7 +27,7 @@ import next from './tech/next.jpg'
 
 import carrent from "./project/carrent.png";
 import portfolio from "./project/portfolio.png"
-
+import resumind from "./project/resumind.png";
 import holophin from "./holophin.png"
 import gitmap from "./gitmap.png"
 
@@ -65,6 +65,7 @@ export {
   gitmap,
   prescripto,
   CarShowcase,
-  shop
+  shop,
+  resumind,
   
 };
