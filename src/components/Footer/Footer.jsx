@@ -24,7 +24,7 @@ const Footer = () => {
           </div>
 
           <a>
-          <img src="https://hitwebcounter.com/counter/counter.php?page=17226100&style=0005&nbdigits=4&type=page&initCount=0" title="Counter Widget" Alt="Visit counter For Websites"   border="0" />
+          <img src="https://hitwebcounter.com/counter/counter.php?page=17226100&style=0005&nbdigits=4&type=page&initCount=0" title="Counter Widget" alt="Visit counter For Websites"   border="0" />
           </a>
 
           <p className={styles.sectionSubText}>Portfolio Visits</p>
